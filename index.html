@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mi Biografía</title>
+<style>
+{font-family: 'Inter', sans-serif;}
+body{
+background: linear-gradient(135deg,#ffffff,#000000); 
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;}
+{ background-color: #90EE90; font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 30px; background-color: white; border-radius: 20px; box-shadow: 0 0 30px rgba(0,0,0,0.1); } h1 { color: #2c3e50; text-align: center; font-size: 36px; } h2 { color: #90EE90; border-bottom: 5px solid #90EE90; padding-bottom: 8px; } img { display: block; margin: 20px auto; border-radius: 50%; border: 4px solid #3498db; width: 200px; height: 200px; object-fit: cover; }
+
+{
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      /* Ángulo de 45 grados con 3 colores */
+      background: linear-gradient(45deg, #4158D0, #C850C0, #FFCC70);
+    }
+
+a { color: #e74c3c; text-decoration: none; font-weight: bold; } a:hover { text-decoration: underline; color: #c0392b; }ul { background-color: #ecf0f1; padding: 20px 30px; border-radius: 12px; list-style: none; } ul li { padding: 8px 0; border-bottom: 1px solid #bdc3c7; } ul li:last-child { border-bottom: none; } body { background-color: # #498dbbfont-family: Arial, sans-serif; max-width: 700px;
+margin: 40px auto; padding: 30px; background-color: white; border-radius: 20px;
+box-shadow: 0 0 30px rgba(0,0,0,0.1); } h1 { color: #2c3e50; text-align: center; font-size:
+36px; } h2 { color: #3498db; border-bottom: 3px solid #3498db; padding-bottom: 8px; } img {
+display: block; margin: 20px auto; border-radius: 50%; border: 4px solid #3498db; width:
+200px; height: 200px; object-fit: cover; } </style>
+</head>
+<body>
+<h1>Hola somos Jonas Ceballos y Juan lucero
+<h1>Esta es nuestra primera página web.<h1>
+<h2> sobre jonas</h2>
+<p> naci en cordoba capial, tengo 14 años, tengo una hermana mayor y un hermano menor,
+cumplo el 18 de mayo y me gusta estar solo viendo series y usando el celular, tambien me
+gusta jugar a la play.</p>
+<h2> sobre juan</h2>
+<p> naci en cordoba capital,tengo 14 años, tengo mas de 10 hermanos siendo yo el mas
+chiquito,cumplo el 29 de septiembre, y me gusta jugar con mis mascotas y ver
+peliculas.</p>
+<h2> gustos de jonas </h2>
+<ul> <li> mirar redes sociales</li>
+<li> jugar a la play </li>
+<li> juntarme con amigos</li>
+<li> mirar series en la tele</li>
+</ul>
+<h2> gustos de juan</h2>
+<ul><li> hacer deportes</li>
+<li> comer muchas frutas</li>
+<li> estar con mi familia</li>
+<li> usar el celular</li>
+</ul>
+<h2> futuro de jonas </h2>
+<button onclick="mostrarFuturo()">🔮 Ver mi futuro</button> 
+<p id="mensaje"></p> 
+
+<script> 
+function mostrarFuturo() { 
+  document.getElementById('mensaje').innerHTML = 'Me veo trabajando en algo de pocas horas para generar ingresos mientras estudio una carrera universitaria que aún estoy por decidir, y disfrutando el tiempo libre con amigos y familia.'; 
+} 
+</script>
+</p></p>
+<h2> futuro de juan</h2>
+<p> me veo estudiando una carrera de abogacia mientras tengo un trabajo de segundo
+tiempo para ir manejandome con mis propios ingresos, con el tiempo restante juntarme con
+mi familia e amigos.</p>
+<img src="foto.jpg" alt="Mi foto" width="200">
+<p>Mi Instagram: <a href="https://instagram.com/jojo.ceballos">@jojo.ceballos</a></p>
+<section class="musica-seccion">
+  <h2 class="musica-titulo">🎵 Mi Música Favorita</h2>
+  <p class="musica-subtitulo">Las canciones que más estoy escuchando últimamente.</p>
+
+  <div class="musica-grid">
+    
+    <!-- Canción 1 -->
+    <article class="cancion-card">
+      <div class="cancion-info">
+        <span class="cancion-numero"></span>
+        <div>
+          <h3 class="cancion-nombre">tumbando el club remix</h3>
+          <p class="cancion-artista">Neo Pistea</p>
+        </div>
+      </div>
+      <a href="https://www.youtube.com/watch?v=VIDEO_ID_1" target="_blank" rel="noopener noreferrer" class="btn-youtube">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+        Escuchar
+      </a>
+    </article>
+
+    <!-- Canción 2 -->
+    <article class="cancion-card">
+      <div class="cancion-info">
+        <span class="cancion-numero"></span>
+        <div>
+          <h3 class="cancion-nombre">madrugada</h3>
+          <p class="cancion-artista">La Beriso</p>
+        </div>
+      </div>
+      <a href=https://www.youtube.com/watch?v=qkkG6g6vT34&list=RDqkkG6g6vT34&start_radio=1>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+        Escuchar
+      </a>
+    </article>
+
+    <!-- Canción 3 -->
+    <article class="cancion-card">
+      <div class="cancion-info">
+        <span class="cancion-numero"></span>
+        <div>
+          <h3 class="cancion-nombre">wow</h3>
+          <p class="cancion-artista">C.R.O y Duki</p>
+        </div>
+      </div>
+      <a href=//www.https://www.youtube.com/watch?v=5bdIRS9-Dh8&list=RD5bdIRS9-Dh8&start_radio=1>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+        Escuchar
+      </a>
+    </article>
+
+  </div>
+</section>
+<button onclick="cambiarColor()">🎨 Cambiar color de fondo</button> <script> function cambiarColor() { const colores = ['#0000FF', '#00ff00', '#ff0000', '#333333', '#f3e5f5']; const indice = Math.floor(Math.random() * colores.length); document.body.style.backgroundColor = colores[indice]; } </script>
+</body>
+</html>
